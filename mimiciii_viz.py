@@ -15,7 +15,7 @@ Original file is located at
 # Standard Jupyter Notebook may have a different setup process
 from google.colab import auth
 from google.cloud import bigquery
-bq_client = bigquery.Client(project = "sacred-amp-449122-i8")
+bq_client = bigquery.Client(project = "your-project-id")
 auth.authenticate_user()
 
 # Imports required libraies
